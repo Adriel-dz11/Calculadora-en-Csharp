@@ -43,15 +43,11 @@
             this.BtnRaiz = new System.Windows.Forms.Button();
             this.BtnPorciento = new System.Windows.Forms.Button();
             this.Btn1entre = new System.Windows.Forms.Button();
-            this.BtnMS = new System.Windows.Forms.Button();
-            this.BtnMR = new System.Windows.Forms.Button();
-            this.BtnMC = new System.Windows.Forms.Button();
             this.BtnC = new System.Windows.Forms.Button();
             this.BtnCe = new System.Windows.Forms.Button();
             this.BtnRetroceso = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.TBBarra = new System.Windows.Forms.TextBox();
-            this.BtnMmas = new System.Windows.Forms.Button();
             this.BtnIgual = new System.Windows.Forms.Button();
             this.BtnMas = new System.Windows.Forms.Button();
             this.BtnPunto = new System.Windows.Forms.Button();
@@ -65,9 +61,9 @@
             this.Btn7.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Btn7.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.Btn7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn7.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.Btn7.Location = new System.Drawing.Point(147, 155);
+            this.Btn7.Location = new System.Drawing.Point(11, 159);
             this.Btn7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Btn7.Name = "Btn7";
             this.Btn7.Size = new System.Drawing.Size(84, 83);
@@ -82,9 +78,9 @@
             this.Btn4.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Btn4.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.Btn4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn4.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.Btn4.Location = new System.Drawing.Point(147, 248);
+            this.Btn4.Location = new System.Drawing.Point(11, 252);
             this.Btn4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Btn4.Name = "Btn4";
             this.Btn4.Size = new System.Drawing.Size(84, 83);
@@ -99,9 +95,9 @@
             this.Btn8.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Btn8.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.Btn8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn8.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.Btn8.Location = new System.Drawing.Point(239, 155);
+            this.Btn8.Location = new System.Drawing.Point(103, 159);
             this.Btn8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Btn8.Name = "Btn8";
             this.Btn8.Size = new System.Drawing.Size(84, 83);
@@ -116,9 +112,9 @@
             this.Btn9.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Btn9.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.Btn9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn9.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.Btn9.Location = new System.Drawing.Point(333, 155);
+            this.Btn9.Location = new System.Drawing.Point(197, 159);
             this.Btn9.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Btn9.Name = "Btn9";
             this.Btn9.Size = new System.Drawing.Size(84, 83);
@@ -133,9 +129,9 @@
             this.Btn6.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Btn6.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.Btn6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn6.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.Btn6.Location = new System.Drawing.Point(333, 248);
+            this.Btn6.Location = new System.Drawing.Point(197, 252);
             this.Btn6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Btn6.Name = "Btn6";
             this.Btn6.Size = new System.Drawing.Size(84, 83);
@@ -150,9 +146,9 @@
             this.Btn1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Btn1.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.Btn1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn1.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.Btn1.Location = new System.Drawing.Point(147, 340);
+            this.Btn1.Location = new System.Drawing.Point(11, 344);
             this.Btn1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Btn1.Name = "Btn1";
             this.Btn1.Size = new System.Drawing.Size(84, 83);
@@ -167,9 +163,9 @@
             this.Btn5.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Btn5.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.Btn5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn5.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.Btn5.Location = new System.Drawing.Point(239, 248);
+            this.Btn5.Location = new System.Drawing.Point(103, 252);
             this.Btn5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Btn5.Name = "Btn5";
             this.Btn5.Size = new System.Drawing.Size(84, 83);
@@ -184,9 +180,9 @@
             this.Btn2.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Btn2.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.Btn2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn2.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.Btn2.Location = new System.Drawing.Point(239, 340);
+            this.Btn2.Location = new System.Drawing.Point(103, 344);
             this.Btn2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Btn2.Name = "Btn2";
             this.Btn2.Size = new System.Drawing.Size(84, 83);
@@ -201,9 +197,9 @@
             this.Btn3.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Btn3.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.Btn3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn3.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.Btn3.Location = new System.Drawing.Point(333, 340);
+            this.Btn3.Location = new System.Drawing.Point(197, 344);
             this.Btn3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Btn3.Name = "Btn3";
             this.Btn3.Size = new System.Drawing.Size(84, 83);
@@ -218,9 +214,9 @@
             this.BtnDividir.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.BtnDividir.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.BtnDividir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnDividir.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnDividir.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnDividir.ForeColor = System.Drawing.Color.Red;
-            this.BtnDividir.Location = new System.Drawing.Point(425, 155);
+            this.BtnDividir.Location = new System.Drawing.Point(289, 159);
             this.BtnDividir.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BtnDividir.Name = "BtnDividir";
             this.BtnDividir.Size = new System.Drawing.Size(84, 83);
@@ -235,9 +231,9 @@
             this.BtnMultiplicar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.BtnMultiplicar.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.BtnMultiplicar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnMultiplicar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnMultiplicar.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnMultiplicar.ForeColor = System.Drawing.Color.Red;
-            this.BtnMultiplicar.Location = new System.Drawing.Point(425, 248);
+            this.BtnMultiplicar.Location = new System.Drawing.Point(289, 252);
             this.BtnMultiplicar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BtnMultiplicar.Name = "BtnMultiplicar";
             this.BtnMultiplicar.Size = new System.Drawing.Size(84, 83);
@@ -252,9 +248,9 @@
             this.BtnMenos.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.BtnMenos.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.BtnMenos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnMenos.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnMenos.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnMenos.ForeColor = System.Drawing.Color.Red;
-            this.BtnMenos.Location = new System.Drawing.Point(425, 340);
+            this.BtnMenos.Location = new System.Drawing.Point(289, 344);
             this.BtnMenos.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BtnMenos.Name = "BtnMenos";
             this.BtnMenos.Size = new System.Drawing.Size(84, 83);
@@ -269,9 +265,9 @@
             this.BtnRaiz.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.BtnRaiz.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.BtnRaiz.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnRaiz.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnRaiz.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnRaiz.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.BtnRaiz.Location = new System.Drawing.Point(519, 155);
+            this.BtnRaiz.Location = new System.Drawing.Point(383, 159);
             this.BtnRaiz.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BtnRaiz.Name = "BtnRaiz";
             this.BtnRaiz.Size = new System.Drawing.Size(84, 83);
@@ -286,9 +282,9 @@
             this.BtnPorciento.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.BtnPorciento.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.BtnPorciento.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnPorciento.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnPorciento.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnPorciento.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.BtnPorciento.Location = new System.Drawing.Point(519, 248);
+            this.BtnPorciento.Location = new System.Drawing.Point(383, 252);
             this.BtnPorciento.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BtnPorciento.Name = "BtnPorciento";
             this.BtnPorciento.Size = new System.Drawing.Size(84, 83);
@@ -303,9 +299,9 @@
             this.Btn1entre.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Btn1entre.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.Btn1entre.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn1entre.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn1entre.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn1entre.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.Btn1entre.Location = new System.Drawing.Point(519, 340);
+            this.Btn1entre.Location = new System.Drawing.Point(383, 344);
             this.Btn1entre.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Btn1entre.Name = "Btn1entre";
             this.Btn1entre.Size = new System.Drawing.Size(84, 83);
@@ -314,54 +310,6 @@
             this.Btn1entre.UseVisualStyleBackColor = false;
             this.Btn1entre.Click += new System.EventHandler(this.Btn1entre_Click);
             // 
-            // BtnMS
-            // 
-            this.BtnMS.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.BtnMS.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.BtnMS.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
-            this.BtnMS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnMS.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMS.ForeColor = System.Drawing.Color.Red;
-            this.BtnMS.Location = new System.Drawing.Point(13, 340);
-            this.BtnMS.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.BtnMS.Name = "BtnMS";
-            this.BtnMS.Size = new System.Drawing.Size(84, 83);
-            this.BtnMS.TabIndex = 17;
-            this.BtnMS.Text = "MS";
-            this.BtnMS.UseVisualStyleBackColor = false;
-            // 
-            // BtnMR
-            // 
-            this.BtnMR.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.BtnMR.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.BtnMR.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
-            this.BtnMR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnMR.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMR.ForeColor = System.Drawing.Color.Red;
-            this.BtnMR.Location = new System.Drawing.Point(13, 248);
-            this.BtnMR.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.BtnMR.Name = "BtnMR";
-            this.BtnMR.Size = new System.Drawing.Size(84, 83);
-            this.BtnMR.TabIndex = 16;
-            this.BtnMR.Text = "MR";
-            this.BtnMR.UseVisualStyleBackColor = false;
-            // 
-            // BtnMC
-            // 
-            this.BtnMC.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.BtnMC.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.BtnMC.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
-            this.BtnMC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnMC.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMC.ForeColor = System.Drawing.Color.Red;
-            this.BtnMC.Location = new System.Drawing.Point(13, 155);
-            this.BtnMC.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.BtnMC.Name = "BtnMC";
-            this.BtnMC.Size = new System.Drawing.Size(84, 83);
-            this.BtnMC.TabIndex = 15;
-            this.BtnMC.Text = "MC";
-            this.BtnMC.UseVisualStyleBackColor = false;
-            // 
             // BtnC
             // 
             this.BtnC.BackColor = System.Drawing.Color.WhiteSmoke;
@@ -369,7 +317,7 @@
             this.BtnC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnC.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnC.ForeColor = System.Drawing.Color.Red;
-            this.BtnC.Location = new System.Drawing.Point(451, 98);
+            this.BtnC.Location = new System.Drawing.Point(315, 102);
             this.BtnC.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BtnC.Name = "BtnC";
             this.BtnC.Size = new System.Drawing.Size(152, 48);
@@ -385,7 +333,7 @@
             this.BtnCe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnCe.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnCe.ForeColor = System.Drawing.Color.Red;
-            this.BtnCe.Location = new System.Drawing.Point(291, 98);
+            this.BtnCe.Location = new System.Drawing.Point(155, 102);
             this.BtnCe.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BtnCe.Name = "BtnCe";
             this.BtnCe.Size = new System.Drawing.Size(152, 48);
@@ -401,7 +349,7 @@
             this.BtnRetroceso.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnRetroceso.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnRetroceso.ForeColor = System.Drawing.Color.Red;
-            this.BtnRetroceso.Location = new System.Drawing.Point(147, 98);
+            this.BtnRetroceso.Location = new System.Drawing.Point(11, 102);
             this.BtnRetroceso.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BtnRetroceso.Name = "BtnRetroceso";
             this.BtnRetroceso.Size = new System.Drawing.Size(140, 48);
@@ -416,36 +364,22 @@
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel1.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.panel1.Location = new System.Drawing.Point(13, 81);
+            this.panel1.Location = new System.Drawing.Point(430, 70);
             this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(83, 64);
+            this.panel1.Size = new System.Drawing.Size(36, 25);
             this.panel1.TabIndex = 21;
             // 
             // TBBarra
             // 
-            this.TBBarra.Location = new System.Drawing.Point(13, 23);
+            this.TBBarra.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TBBarra.Location = new System.Drawing.Point(13, 14);
             this.TBBarra.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.TBBarra.Multiline = true;
             this.TBBarra.Name = "TBBarra";
             this.TBBarra.ReadOnly = true;
-            this.TBBarra.Size = new System.Drawing.Size(583, 26);
+            this.TBBarra.Size = new System.Drawing.Size(453, 46);
             this.TBBarra.TabIndex = 22;
-            // 
-            // BtnMmas
-            // 
-            this.BtnMmas.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.BtnMmas.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.BtnMmas.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
-            this.BtnMmas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnMmas.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMmas.ForeColor = System.Drawing.Color.Red;
-            this.BtnMmas.Location = new System.Drawing.Point(13, 432);
-            this.BtnMmas.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.BtnMmas.Name = "BtnMmas";
-            this.BtnMmas.Size = new System.Drawing.Size(84, 83);
-            this.BtnMmas.TabIndex = 28;
-            this.BtnMmas.Text = "M+";
-            this.BtnMmas.UseVisualStyleBackColor = false;
             // 
             // BtnIgual
             // 
@@ -453,9 +387,9 @@
             this.BtnIgual.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.BtnIgual.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.BtnIgual.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnIgual.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnIgual.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnIgual.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.BtnIgual.Location = new System.Drawing.Point(519, 432);
+            this.BtnIgual.Location = new System.Drawing.Point(383, 436);
             this.BtnIgual.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BtnIgual.Name = "BtnIgual";
             this.BtnIgual.Size = new System.Drawing.Size(84, 83);
@@ -470,9 +404,9 @@
             this.BtnMas.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.BtnMas.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.BtnMas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnMas.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnMas.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnMas.ForeColor = System.Drawing.Color.Red;
-            this.BtnMas.Location = new System.Drawing.Point(425, 432);
+            this.BtnMas.Location = new System.Drawing.Point(289, 436);
             this.BtnMas.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BtnMas.Name = "BtnMas";
             this.BtnMas.Size = new System.Drawing.Size(84, 83);
@@ -487,9 +421,9 @@
             this.BtnPunto.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.BtnPunto.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.BtnPunto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnPunto.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnPunto.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnPunto.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.BtnPunto.Location = new System.Drawing.Point(333, 432);
+            this.BtnPunto.Location = new System.Drawing.Point(197, 436);
             this.BtnPunto.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BtnPunto.Name = "BtnPunto";
             this.BtnPunto.Size = new System.Drawing.Size(84, 83);
@@ -504,9 +438,9 @@
             this.BtnNegativo.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.BtnNegativo.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.BtnNegativo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnNegativo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnNegativo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnNegativo.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.BtnNegativo.Location = new System.Drawing.Point(239, 432);
+            this.BtnNegativo.Location = new System.Drawing.Point(103, 436);
             this.BtnNegativo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BtnNegativo.Name = "BtnNegativo";
             this.BtnNegativo.Size = new System.Drawing.Size(84, 83);
@@ -521,9 +455,9 @@
             this.Btn0.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Btn0.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
             this.Btn0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn0.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn0.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn0.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.Btn0.Location = new System.Drawing.Point(147, 432);
+            this.Btn0.Location = new System.Drawing.Point(11, 436);
             this.Btn0.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Btn0.Name = "Btn0";
             this.Btn0.Size = new System.Drawing.Size(84, 83);
@@ -537,8 +471,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.ClientSize = new System.Drawing.Size(620, 537);
-            this.Controls.Add(this.BtnMmas);
+            this.ClientSize = new System.Drawing.Size(487, 541);
             this.Controls.Add(this.BtnIgual);
             this.Controls.Add(this.BtnMas);
             this.Controls.Add(this.BtnPunto);
@@ -549,9 +482,6 @@
             this.Controls.Add(this.BtnC);
             this.Controls.Add(this.BtnCe);
             this.Controls.Add(this.BtnRetroceso);
-            this.Controls.Add(this.BtnMS);
-            this.Controls.Add(this.BtnMR);
-            this.Controls.Add(this.BtnMC);
             this.Controls.Add(this.Btn1entre);
             this.Controls.Add(this.BtnPorciento);
             this.Controls.Add(this.BtnRaiz);
@@ -598,15 +528,11 @@
         private System.Windows.Forms.Button BtnRaiz;
         private System.Windows.Forms.Button BtnPorciento;
         private System.Windows.Forms.Button Btn1entre;
-        private System.Windows.Forms.Button BtnMS;
-        private System.Windows.Forms.Button BtnMR;
-        private System.Windows.Forms.Button BtnMC;
         private System.Windows.Forms.Button BtnC;
         private System.Windows.Forms.Button BtnCe;
         private System.Windows.Forms.Button BtnRetroceso;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.TextBox TBBarra;
-        private System.Windows.Forms.Button BtnMmas;
         private System.Windows.Forms.Button BtnIgual;
         private System.Windows.Forms.Button BtnMas;
         private System.Windows.Forms.Button BtnPunto;

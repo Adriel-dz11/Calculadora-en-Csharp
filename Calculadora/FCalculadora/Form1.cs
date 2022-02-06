@@ -1,14 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using System.Speech.Recognition;
-using System.Speech.Synthesis;
+using System.Windows.Forms;
 
 namespace FCalculadora
 {
@@ -25,11 +18,7 @@ namespace FCalculadora
         
         private void Form1_Load(object sender, EventArgs e)
         {
-            Choices palabras = new Choices();
-            palabras.Add(new string[] { "uno", "dos","tres","cuatro","cinco","seis","siete","ocho","nueve","cero","mas","menos",
-                "entre","por","porciento","raiz","retroceso","pantalla","borrar","negativo","igual","derivado","punto","salir" });
-
-            Grammar gramatica = new Grammar(new GrammarBuilder(palabras));
+           
             try
             {
                 
@@ -38,155 +27,6 @@ namespace FCalculadora
             catch (Exception a)
             {
                 MessageBox.Show(a.ToString());
-            }
-        }
-        private void Reconocedor_SpeechRecognized(object sender, SpeechRecognizedEventArgs e)
-        {
-            if (e.Result.Text == "uno")
-            {
-                Btn1_Click(sender, e);
-               
-
-            }
-            else
-                 if (e.Result.Text == "dos")
-            {
-                Btn2_Click(sender, e);
-               
-            }
-            else
-                 if (e.Result.Text == "tres")
-            {
-                Btn3_Click(sender, e);
-                
-            }
-            else
-                 if (e.Result.Text == "cuatro")
-            {
-                Btn4_Click(sender, e);
-               
-            }
-            else
-                 if (e.Result.Text == "cinco")
-            {
-                Btn5_Click(sender, e);
-           
-            }
-            else
-                 if (e.Result.Text == "seis")
-            {
-                Btn6_Click(sender, e);
-               
-            }
-            else
-                 if (e.Result.Text == "siete")
-            {
-                Btn7_Click(sender, e);
-                
-            }
-            else
-                 if (e.Result.Text == "ocho")
-            {
-                Btn8_Click(sender, e);
-                
-            }
-            else
-                 if (e.Result.Text == "nueve")
-            {
-                Btn9_Click(sender, e);
-               
-            }
-            else
-                 if (e.Result.Text == "cero")
-            {
-                Btn0_Click(sender, e);
-                
-            }
-            else
-                 if (e.Result.Text == "mas")
-            {
-                BtnMas_Click(sender, e);
-                
-            }
-            else
-                 if (e.Result.Text == "menos")
-            {
-                BtnMenos_Click(sender, e);
-               
-            }
-            else
-                 if (e.Result.Text == "por")
-            {
-                BtnMultiplicar_Click(sender, e);
-                
-            }
-            else
-                 if (e.Result.Text == "entre")
-            {
-                BtnDividir_Click(sender, e);
-                
-            }
-            else
-                 if (e.Result.Text == "raiz")
-            {
-                BtnRaiz_Click(sender, e);
-                
-            }
-            else
-                 if (e.Result.Text == "porciento")
-            {
-                BtnPorciento_Click(sender, e);
-                
-            }
-            else
-                 if (e.Result.Text == "igual")
-            {
-                BtnIgual_Click(sender, e);
-               
-              
-
-            }
-            else
-                 if (e.Result.Text == "negativo")
-            {
-                BtnNegativo_Click(sender, e);
-               
-            }
-            else
-                 if (e.Result.Text == "retroceso")
-            {
-                BtnRetroceso_Click(sender, e);
-                
-            }
-            else
-                 if (e.Result.Text == "pantalla")
-            {
-                BtnCe_Click(sender, e);
-                
-            }
-            else
-                 if (e.Result.Text == "borrar")
-            {
-                BtnC_Click(sender, e);
-               
-            }
-            else
-                 if (e.Result.Text == "derivado")
-            {
-                Btn1entre_Click(sender, e);
-                
-            }
-            else
-            if (e.Result.Text == "punto")
-            {
-                BtnPunto_Click(sender, e);
-                
-            }
-            else
-                if (e.Result.Text == "salir")
-            {
-
-                this.Close();
             }
         }
 
@@ -249,13 +89,14 @@ namespace FCalculadora
         {
             if (TBBarra.Text != "") //esto evita que explote
             {
-
                 panel1.BackColor = Color.Blue;
                 BtnIgual.Enabled = true;
                 op = "+";
                 primero = double.Parse(TBBarra.Text);
                 TBBarra.Clear();
+               
             }
+
                 
             
         }
@@ -305,7 +146,7 @@ namespace FCalculadora
 
         private void BtnIgual_Click(object sender, EventArgs e)
         {
-
+            
             segundo = double.Parse(TBBarra.Text);     
             switch (op)
             {
@@ -359,41 +200,65 @@ namespace FCalculadora
 
         private void BtnPorciento_Click(object sender, EventArgs e)
         {
-            panel1.BackColor = Color.Pink;
-                
-            BtnIgual.Enabled = true;
-            op = "%";
-            resultado = double.Parse(TBBarra.Text);
-            TBBarra.Clear();
-            TBBarra.Text = Convert.ToString(resultado/100);
+            if (TBBarra.Text != "")
+            {
+                panel1.BackColor = Color.Pink;
+
+                BtnIgual.Enabled = true;
+                op = "%";
+                resultado = double.Parse(TBBarra.Text);
+                TBBarra.Clear();
+                TBBarra.Text = Convert.ToString(resultado / 100);
+            }
         }
 
         private void Btn1entre_Click(object sender, EventArgs e)
         {
-            panel1.BackColor = Color.Pink;
-            BtnIgual.Enabled = true;
-            resultado = double.Parse(TBBarra.Text);
-            TBBarra.Clear();
-            TBBarra.Text = Convert.ToString(1/resultado);
+            if (TBBarra.Text != "")
+            {
+                panel1.BackColor = Color.Pink;
+                BtnIgual.Enabled = true;
+                resultado = double.Parse(TBBarra.Text);
+                TBBarra.Clear();
+                TBBarra.Text = Convert.ToString(1 / resultado);
+
+
+            }
         }
 
         private void BtnRaiz_Click(object sender, EventArgs e)
         {
-            panel1.BackColor = Color.Pink;   ;
-            BtnIgual.Enabled = true;
-            resultado = double.Parse(TBBarra.Text);
-            TBBarra.Clear();
-            TBBarra.Text = Convert.ToString(Math.Sqrt(resultado));
+            
+            if (TBBarra.Text !="")
+            {
+                BtnRaiz.Enabled = true;
+                panel1.BackColor = Color.Pink; ;
+                BtnIgual.Enabled = true;
+                resultado = double.Parse(TBBarra.Text);
+                TBBarra.Clear();
+                TBBarra.Text = Convert.ToString(Math.Sqrt(resultado));
+            }
+            
+
         }
 
         private void BtnNegativo_Click(object sender, EventArgs e)
         {
-            BtnIgual.Enabled = true;
-            op = "-/+";
-            resultado = double.Parse(TBBarra.Text);
-            TBBarra.Clear();
-            TBBarra.Text = Convert.ToString(resultado * -1);
+            if (TBBarra.Text != "")
+            {
+                BtnIgual.Enabled = true;
+                op = "-/+";
+                resultado = double.Parse(TBBarra.Text);
+                TBBarra.Clear();
+                TBBarra.Text = Convert.ToString(resultado * -1);
+            }
+              
             
+        }
+
+        private void BtnMC_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
